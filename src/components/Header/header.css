@@ -1,0 +1,124 @@
+.header{
+    background-color: #003b95;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+.headercontainer{
+   
+    width: 100%;
+    max-width: 1024px;
+    margin:20px 0px 100px 0px ;
+}
+.headerlist{
+    display: flex ;
+    /* justify-content: space-evenly; */  
+    gap: 40px;
+}
+.headerlistitems {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+.headerlistitems.active{
+    border:1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headertitle{
+    margin: 50px 0px 20px;
+    font-size: 50px;
+}
+.headerbtn{
+    color: #003b95;
+    background-color: #9fbdee;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+   
+}
+.headersearch{
+    background-color: white;
+    height: 30px;
+    display: flex;
+    color: black;
+    border: 5px solid rgb(236, 187, 26);
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    position: absolute ;
+    width: 100%;
+    max-width: 1024px;
+    bottom: -25px;
+}
+.headericon{
+    color:gray
+}
+.headersearchitem{ 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.headersearchinput{
+    border: none;
+    outline: none;
+}
+.headersearchtext{
+    border:none;
+    color:grey;
+    cursor: pointer; 
+}
+.date{
+    position:absolute;
+    top: 50px;
+    /* generateing box shadow from any website on google */
+    box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+-webkit-box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+-moz-box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+}
+.options{ 
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    color: grey;
+    border: 1px solid black;
+    border-radius: 5px;  
+    box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+    -webkit-box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+    -moz-box-shadow: 12px 12px 26px 11px rgba(222,145,15,0.4);
+}
+.optionitems{
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    justify-content: space-between;
+}
+.optioncounter{
+    /* background-color: lightgrey; */
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    border:1px solid black;
+    padding: 4px;
+    border-radius: 5px;
+    
+} 
+.optioncounterbuttonn{
+    background-color:rgb(238, 230, 230);
+    color: #003b95 ;
+    cursor: pointer;
+}
+.optioncounterbuttonn:disabled{
+    cursor: not-allowed;
+}  

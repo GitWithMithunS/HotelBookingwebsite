@@ -1,0 +1,48 @@
+.stay{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+    
+    justify-content: space-between;
+}
+.stayitem{
+    flex: 1 ;
+    gap: 10px;
+}
+.stayimg{
+    border-radius: 10px;
+    width: 100%;
+}
+.imgtxt{
+    display: flex;
+    flex-direction: column;
+
+}
+.stayname{
+    font-weight: bold;
+}
+.stayplace{
+    font-weight: 400;
+    font-size:small;
+}
+.stayprice{
+    font-weight: 500;
+    font-size: medium;
+}
+.stayrating{
+    margin-top: 7px;
+}
+.stayrating>button{
+    background-color: #003b95;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 5px;
+    border-radius: 80px;
+    margin-right: 10px;
+}
+.stayrating>span {
+    font-size:small;
+    font-weight: 500;
+}

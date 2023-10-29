@@ -1,0 +1,30 @@
+.plist{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.plistitems{
+ 
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.plistimg{
+    height:150px;
+    width: 100%;
+    object-fit: cover;
+}
+.plistitems>h1{
+    font-size: 20px;
+}
+.plistitems>h2{
+    font-size: 14px;
+    margin-block-start:-7px;
+}

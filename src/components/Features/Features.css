@@ -1,0 +1,32 @@
+.features{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    z-index: 1;  
+}
+.featuresitem{
+    object-fit:fill;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+}
+.featuresimg{
+    border-radius: 10px ; 
+    height: 250px;
+    width: 100%;
+}
+.featurestitles{
+    position: absolute;
+    bottom: 0px;
+    color: aliceblue;
+    margin-left:10px ;
+}
+h2{
+    position: relative;
+   margin-block-start:-10px;
+}
